@@ -33,6 +33,8 @@ public class BallThrower : MonoBehaviour
 			rb.isKinematic = false;
 			rb.useGravity = true;
 			rb.AddForce(Camera.main.transform.forward * throwForce, ForceMode.Impulse);
+
+		StartCoroutine(DestroyBall(ball));
 	}
 
 	void Pick(){
@@ -55,6 +57,13 @@ public class BallThrower : MonoBehaviour
 				}
 			}
 
+	}
+
+	IEnumerator DestroyBall(GameObject ball)
+	{
+		yield return new WaitForSeconds(5);
+
+		Destroy(ball);
 	}
 
 }
