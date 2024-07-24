@@ -751,7 +751,24 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.EventSystems.PhysicsRaycaster.op_Inequality
 	// --------------- Plugin Stubs
 	// --------------- Asset Stubs
+	// UnityEngine.GameObject.tag
+	// UnityEngine.GameObject.Destroy
+	// UnityEngine.UI.Image.color
+	// UnityEngine.Color.r
+	// UnityEngine.GameObject.FindGameObjectWithTag
+	// UnityEngine.GameObject.SetActive
+	// UnityEngine.Color.g
+	// UnityEngine.Color.b
+	// UnityEngine.Component.GetComponent
+	// UnityEngine.Vector4..ctor
+	// UnityEngine.Component.GetComponentInChildren
+	// TMPro.TextMeshProUGUI.color
+	// UnityEngine.Behaviour.enabled
+	// TMPro.TextMeshProUGUI.text
+	// int.ToString
 	// --------------- Scene Stubs
+	// UnityEngine.GameObject..ctor
+	// ObjectPlacer..ctor
 	[UnityEngine.Scripting.PreserveAttribute()]
 	public class AotStubs
 	{
@@ -9335,6 +9352,197 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject.tag
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_tag()
+		{
+			global::UnityEngine.GameObject target = default(global::UnityEngine.GameObject);
+			string accessor = target.tag;
+			target.tag = default(string);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.GameObject, string> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.GameObject, string>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.GameObject));
+			optimized.SetValue(default(global::UnityEngine.GameObject), default(string));
+		}
+		
+		// UnityEngine.GameObject.Destroy
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_Destroy()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object.Destroy(arg0);
+			global::Unity.VisualScripting.StaticActionInvoker<UnityEngine.Object> optimized = new global::Unity.VisualScripting.StaticActionInvoker<UnityEngine.Object>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.UI.Image.color
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UI_Image_color()
+		{
+			global::UnityEngine.UI.Graphic target = default(global::UnityEngine.UI.Graphic);
+			global::UnityEngine.Color accessor = target.color;
+			target.color = default(global::UnityEngine.Color);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.UI.Graphic));
+			optimized.SetValue(default(global::UnityEngine.UI.Graphic), default(global::UnityEngine.Color));
+		}
+		
+		// UnityEngine.Color.r
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Color_r()
+		{
+			global::UnityEngine.Color target = default(global::UnityEngine.Color);
+			float accessor = target.r;
+			target.r = default(float);
+			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(default(global::UnityEngine.Color));
+			optimized.SetValue(default(global::UnityEngine.Color), default(float));
+		}
+		
+		// UnityEngine.GameObject.FindGameObjectWithTag
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_FindGameObjectWithTag()
+		{
+			string arg0 = default(string);
+			global::UnityEngine.GameObject.FindGameObjectWithTag(arg0);
+			global::Unity.VisualScripting.StaticFunctionInvoker<string, UnityEngine.GameObject> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, UnityEngine.GameObject>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject.SetActive
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_SetActive()
+		{
+			global::UnityEngine.GameObject target = default(global::UnityEngine.GameObject);
+			bool arg0 = default(bool);
+			target.SetActive(arg0);
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.GameObject, bool> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.GameObject, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.GameObject), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Color.g
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Color_g()
+		{
+			global::UnityEngine.Color target = default(global::UnityEngine.Color);
+			float accessor = target.g;
+			target.g = default(float);
+			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(default(global::UnityEngine.Color));
+			optimized.SetValue(default(global::UnityEngine.Color), default(float));
+		}
+		
+		// UnityEngine.Color.b
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Color_b()
+		{
+			global::UnityEngine.Color target = default(global::UnityEngine.Color);
+			float accessor = target.b;
+			target.b = default(float);
+			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
+			optimized.GetValue(default(global::UnityEngine.Color));
+			optimized.SetValue(default(global::UnityEngine.Color), default(float));
+		}
+		
+		// UnityEngine.Component.GetComponent
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Component_GetComponent()
+		{
+			global::UnityEngine.Component target = default(global::UnityEngine.Component);
+			global::System.Type arg0 = default(global::System.Type);
+			target.GetComponent(arg0);
+			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Component), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Vector4..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Vector4_ctor()
+		{
+			float arg0 = default(float);
+			float arg1 = default(float);
+			float arg2 = default(float);
+			float arg3 = default(float);
+			new UnityEngine.Vector4(arg0, arg1, arg2, arg3);
+		}
+		
+		// UnityEngine.Component.GetComponentInChildren
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Component_GetComponentInChildren()
+		{
+			global::UnityEngine.Component target = default(global::UnityEngine.Component);
+			global::System.Type arg0 = default(global::System.Type);
+			bool arg1 = default(bool);
+			target.GetComponentInChildren(arg0, arg1);
+			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, bool, UnityEngine.Component> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, bool, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Component), arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshProUGUI.color
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_color()
+		{
+			global::TMPro.TMP_Text target = default(global::TMPro.TMP_Text);
+			global::UnityEngine.Color accessor = target.color;
+			target.color = default(global::UnityEngine.Color);
+			global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, UnityEngine.Color> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, UnityEngine.Color>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::TMPro.TMP_Text));
+			optimized.SetValue(default(global::TMPro.TMP_Text), default(global::UnityEngine.Color));
+		}
+		
+		// UnityEngine.Behaviour.enabled
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Behaviour_enabled()
+		{
+			global::UnityEngine.Behaviour target = default(global::UnityEngine.Behaviour);
+			bool accessor = target.enabled;
+			target.enabled = default(bool);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.Behaviour));
+			optimized.SetValue(default(global::UnityEngine.Behaviour), default(bool));
+		}
+		
+		// TMPro.TextMeshProUGUI.text
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_text()
+		{
+			global::TMPro.TMP_Text target = default(global::TMPro.TMP_Text);
+			string accessor = target.text;
+			target.text = default(string);
+			global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, string> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, string>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::TMPro.TMP_Text));
+			optimized.SetValue(default(global::TMPro.TMP_Text), default(string));
+		}
+		
+		// int.ToString
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void int_ToString()
+		{
+			int target = default(int);
+			target.ToString();
+			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(int));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_ctor()
+		{
+			new UnityEngine.GameObject();
+		}
+		
+		// ObjectPlacer..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ObjectPlacer_ctor()
+		{
+			new ObjectPlacer();
 		}
 	}
 }
