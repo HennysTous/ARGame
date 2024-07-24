@@ -587,12 +587,15 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.WindZone.op_Implicit
 	// UnityEngine.WindZone.op_Equality
 	// UnityEngine.WindZone.op_Inequality
+	// BallThrower.op_Implicit
+	// BallThrower.op_Equality
+	// BallThrower.op_Inequality
+	// ObjectPicker.op_Implicit
+	// ObjectPicker.op_Equality
+	// ObjectPicker.op_Inequality
 	// ObjectPlacer.op_Implicit
 	// ObjectPlacer.op_Equality
 	// ObjectPlacer.op_Inequality
-	// ObjectThrower.op_Implicit
-	// ObjectThrower.op_Equality
-	// ObjectThrower.op_Inequality
 	// AnchorCreator.op_Implicit
 	// AnchorCreator.op_Equality
 	// AnchorCreator.op_Inequality
@@ -753,21 +756,23 @@ namespace Unity.VisualScripting.Generated.Aot
 	// --------------- Asset Stubs
 	// UnityEngine.GameObject.tag
 	// UnityEngine.GameObject.Destroy
-	// UnityEngine.UI.Image.color
-	// UnityEngine.Color.r
 	// UnityEngine.GameObject.FindGameObjectWithTag
 	// UnityEngine.GameObject.SetActive
-	// UnityEngine.Color.g
-	// UnityEngine.Color.b
-	// UnityEngine.Component.GetComponent
-	// UnityEngine.Vector4..ctor
-	// UnityEngine.Component.GetComponentInChildren
-	// TMPro.TextMeshProUGUI.color
-	// UnityEngine.Behaviour.enabled
-	// TMPro.TextMeshProUGUI.text
+	// UnityEngine.GameObject.FindGameObjectsWithTag
 	// int.ToString
+	// TMPro.TextMeshProUGUI.text
+	// UnityEngine.Component.GetComponent
+	// UnityEngine.GameObject.Instantiate
+	// UnityEngine.Transform.GetPositionAndRotation
+	// UnityEngine.GameObject.Find
+	// UnityEngine.Behaviour.enabled
+	// UnityEngine.ParticleSystem.Play
+	// UnityEngine.AudioSource.Play
+	// UnityEngine.Animator.Play
+	// UnityEngine.AudioSource.pitch
 	// --------------- Scene Stubs
 	// UnityEngine.GameObject..ctor
+	// TMPro.TextMeshProUGUI..ctor
 	// ObjectPlacer..ctor
 	[UnityEngine.Scripting.PreserveAttribute()]
 	public class AotStubs
@@ -7464,6 +7469,76 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// BallThrower.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void BallThrower_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// BallThrower.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void BallThrower_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// BallThrower.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void BallThrower_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ObjectPicker.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ObjectPicker_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ObjectPicker.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ObjectPicker_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ObjectPicker.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ObjectPicker_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// ObjectPlacer.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void ObjectPlacer_op_Implicit()
@@ -7490,41 +7565,6 @@ namespace Unity.VisualScripting.Generated.Aot
 		// ObjectPlacer.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void ObjectPlacer_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// ObjectThrower.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void ObjectThrower_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// ObjectThrower.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void ObjectThrower_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// ObjectThrower.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void ObjectThrower_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9377,30 +9417,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.UI.Image.color
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_UI_Image_color()
-		{
-			global::UnityEngine.UI.Graphic target = default(global::UnityEngine.UI.Graphic);
-			global::UnityEngine.Color accessor = target.color;
-			target.color = default(global::UnityEngine.Color);
-			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Graphic, UnityEngine.Color>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.UI.Graphic));
-			optimized.SetValue(default(global::UnityEngine.UI.Graphic), default(global::UnityEngine.Color));
-		}
-		
-		// UnityEngine.Color.r
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Color_r()
-		{
-			global::UnityEngine.Color target = default(global::UnityEngine.Color);
-			float accessor = target.r;
-			target.r = default(float);
-			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(default(global::UnityEngine.Color));
-			optimized.SetValue(default(global::UnityEngine.Color), default(float));
-		}
-		
 		// UnityEngine.GameObject.FindGameObjectWithTag
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_GameObject_FindGameObjectWithTag()
@@ -9424,88 +9440,27 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Color.g
+		// UnityEngine.GameObject.FindGameObjectsWithTag
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Color_g()
+		public static void UnityEngine_GameObject_FindGameObjectsWithTag()
 		{
-			global::UnityEngine.Color target = default(global::UnityEngine.Color);
-			float accessor = target.g;
-			target.g = default(float);
-			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(default(global::UnityEngine.Color));
-			optimized.SetValue(default(global::UnityEngine.Color), default(float));
-		}
-		
-		// UnityEngine.Color.b
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Color_b()
-		{
-			global::UnityEngine.Color target = default(global::UnityEngine.Color);
-			float accessor = target.b;
-			target.b = default(float);
-			global::Unity.VisualScripting.ReflectionFieldAccessor optimized = new global::Unity.VisualScripting.ReflectionFieldAccessor(default(global::System.Reflection.FieldInfo));
-			optimized.GetValue(default(global::UnityEngine.Color));
-			optimized.SetValue(default(global::UnityEngine.Color), default(float));
-		}
-		
-		// UnityEngine.Component.GetComponent
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Component_GetComponent()
-		{
-			global::UnityEngine.Component target = default(global::UnityEngine.Component);
-			global::System.Type arg0 = default(global::System.Type);
-			target.GetComponent(arg0);
-			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Component), arg0);
+			string arg0 = default(string);
+			global::System.Collections.Generic.List<UnityEngine.GameObject> arg1 = default(global::System.Collections.Generic.List<UnityEngine.GameObject>);
+			global::UnityEngine.GameObject.FindGameObjectsWithTag(arg0, arg1);
+			global::Unity.VisualScripting.StaticActionInvoker<string, System.Collections.Generic.List<UnityEngine.GameObject>> optimized = new global::Unity.VisualScripting.StaticActionInvoker<string, System.Collections.Generic.List<UnityEngine.GameObject>>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Vector4..ctor
+		// int.ToString
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Vector4_ctor()
+		public static void int_ToString()
 		{
-			float arg0 = default(float);
-			float arg1 = default(float);
-			float arg2 = default(float);
-			float arg3 = default(float);
-			new UnityEngine.Vector4(arg0, arg1, arg2, arg3);
-		}
-		
-		// UnityEngine.Component.GetComponentInChildren
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Component_GetComponentInChildren()
-		{
-			global::UnityEngine.Component target = default(global::UnityEngine.Component);
-			global::System.Type arg0 = default(global::System.Type);
-			bool arg1 = default(bool);
-			target.GetComponentInChildren(arg0, arg1);
-			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, bool, UnityEngine.Component> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, bool, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Component), arg0, arg1);
+			int target = default(int);
+			target.ToString();
+			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(int));
 			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TextMeshProUGUI.color
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshProUGUI_color()
-		{
-			global::TMPro.TMP_Text target = default(global::TMPro.TMP_Text);
-			global::UnityEngine.Color accessor = target.color;
-			target.color = default(global::UnityEngine.Color);
-			global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, UnityEngine.Color> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<TMPro.TMP_Text, UnityEngine.Color>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::TMPro.TMP_Text));
-			optimized.SetValue(default(global::TMPro.TMP_Text), default(global::UnityEngine.Color));
-		}
-		
-		// UnityEngine.Behaviour.enabled
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Behaviour_enabled()
-		{
-			global::UnityEngine.Behaviour target = default(global::UnityEngine.Behaviour);
-			bool accessor = target.enabled;
-			target.enabled = default(bool);
-			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Behaviour));
-			optimized.SetValue(default(global::UnityEngine.Behaviour), default(bool));
 		}
 		
 		// TMPro.TextMeshProUGUI.text
@@ -9520,15 +9475,111 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.SetValue(default(global::TMPro.TMP_Text), default(string));
 		}
 		
-		// int.ToString
+		// UnityEngine.Component.GetComponent
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void int_ToString()
+		public static void UnityEngine_Component_GetComponent()
 		{
-			int target = default(int);
-			target.ToString();
-			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(int));
+			global::UnityEngine.Component target = default(global::UnityEngine.Component);
+			global::System.Type arg0 = default(global::System.Type);
+			target.GetComponent(arg0);
+			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.Component, System.Type, UnityEngine.Component>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Component), arg0);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject.Instantiate
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_Instantiate()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Vector3 arg1 = default(global::UnityEngine.Vector3);
+			global::UnityEngine.Quaternion arg2 = default(global::UnityEngine.Quaternion);
+			global::UnityEngine.Transform arg3 = default(global::UnityEngine.Transform);
+			global::UnityEngine.Object.Instantiate(arg0, arg1, arg2, arg3);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform, UnityEngine.Object> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform, UnityEngine.Object>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1, arg2, arg3);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Transform.GetPositionAndRotation
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Transform_GetPositionAndRotation()
+		{
+			global::UnityEngine.Transform target = default(global::UnityEngine.Transform);
+			global::UnityEngine.Vector3 arg0 = default(global::UnityEngine.Vector3);
+			global::UnityEngine.Quaternion arg1 = default(global::UnityEngine.Quaternion);
+			target.GetPositionAndRotation(out arg0, out arg1);
+			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject.Find
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_Find()
+		{
+			string arg0 = default(string);
+			global::UnityEngine.GameObject.Find(arg0);
+			global::Unity.VisualScripting.StaticFunctionInvoker<string, UnityEngine.GameObject> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, UnityEngine.GameObject>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Behaviour.enabled
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Behaviour_enabled()
+		{
+			global::UnityEngine.Behaviour target = default(global::UnityEngine.Behaviour);
+			bool accessor = target.enabled;
+			target.enabled = default(bool);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Behaviour, bool>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.Behaviour));
+			optimized.SetValue(default(global::UnityEngine.Behaviour), default(bool));
+		}
+		
+		// UnityEngine.ParticleSystem.Play
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_ParticleSystem_Play()
+		{
+			global::UnityEngine.ParticleSystem target = default(global::UnityEngine.ParticleSystem);
+			target.Play();
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.ParticleSystem> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.ParticleSystem>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.ParticleSystem));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.AudioSource.Play
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_AudioSource_Play()
+		{
+			global::UnityEngine.AudioSource target = default(global::UnityEngine.AudioSource);
+			target.Play();
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.AudioSource> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.AudioSource>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.AudioSource));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Animator.Play
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Animator_Play()
+		{
+			global::UnityEngine.Animator target = default(global::UnityEngine.Animator);
+			string arg0 = default(string);
+			target.Play(arg0);
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Animator, string>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Animator), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.AudioSource.pitch
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_AudioSource_pitch()
+		{
+			global::UnityEngine.AudioSource target = default(global::UnityEngine.AudioSource);
+			float accessor = target.pitch;
+			target.pitch = default(float);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.AudioSource, float> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.AudioSource, float>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.AudioSource));
+			optimized.SetValue(default(global::UnityEngine.AudioSource), default(float));
 		}
 		
 		// UnityEngine.GameObject..ctor
@@ -9536,6 +9587,13 @@ namespace Unity.VisualScripting.Generated.Aot
 		public static void UnityEngine_GameObject_ctor()
 		{
 			new UnityEngine.GameObject();
+		}
+		
+		// TMPro.TextMeshProUGUI..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_ctor()
+		{
+			new TMPro.TextMeshProUGUI();
 		}
 		
 		// ObjectPlacer..ctor
